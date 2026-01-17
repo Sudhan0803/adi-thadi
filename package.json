@@ -1,0 +1,16 @@
+{
+  "name": "stick-fight-vercel",
+  "version": "1.0.0",
+  "description": "Multiplayer Stick Figure Game on Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.5.0",
+    "@vercel/node": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
